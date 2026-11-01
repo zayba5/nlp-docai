@@ -1,0 +1,34 @@
+{
+    "dataset": "SP-DocVAQ",
+    "split_manifest":"splits/docvqa_official_split.json",
+    "development_split":"train",
+    "evaluation_split":"validation",
+    "test_used":false,
+    "baselines":{
+        "bm25":{
+            "type":"text_only",
+            "uses_ocr_text":true,
+            "uses_coordinates":false,
+            "chunk_size_words":80,
+            "chunk_overlap_words":20,
+            "retrieval_k":[1,5,10]
+        },
+        "layoutlm":{
+            "type":"pretrained_document_question_answering",
+            "model":"impira/layoutlm-document-qa"
+        }
+    },
+    "primary_metric":"evidence_recall_at_k",
+    "secondary_metric": [
+        "answer_exact_match",
+        "answer_token_f1"
+    ],
+    "random_seed":271,
+    "notes":[
+        "The offcial DocVQA partitions are used without creating a new split.",
+        "All baselined use the same validation questions.",
+        "The test split remains protected.",
+        "The random seed is null because the current baseline runs do not use random samping or training."
+    ]
+    
+}
