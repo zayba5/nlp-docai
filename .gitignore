@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw DocVQA data
+data/raw/
+data/images/
+data/ocr/
+data/qas/
+data/*.tar
+data/*.zip
+data/*.json
+
+# Raw dataset
+data/raw/*
+!data/raw/README.md
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs
+results/*.csv
+results/*.json
+results/*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db

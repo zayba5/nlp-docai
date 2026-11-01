@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+rank-bm25
+Pillow
+tqdm
+matplotlib
+jupyter
+torch
+transformers
+accelerate
+evaluate
+sentencepiece

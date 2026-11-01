@@ -1,0 +1,11 @@
+data_root: data/raw
+
+images_dir: data/raw/images
+ocr_dir: data/raw/ocr
+qas_dir: data/raw/qas
+
+train_annotations: data/raw/qas/train_v1.0_withQT.json
+validation_annotations: data/raw/qas/val_v1.0_withQT.json
+test_annotations: data/raw/qas/test_v1.0.json
+
+random_seed: 271
