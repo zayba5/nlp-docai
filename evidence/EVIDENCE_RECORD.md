@@ -310,3 +310,21 @@ The official training, validation, and test partitions were checked, with no doc
 The sample OCR inspection demonstrated that OCR extraction can introduce recognition and formatting errors. This limitation is relevant to the comparison between text-based retrieval and layout-aware document question answering.
 
 These findings support proceeding with the BM25 and visual baselines before evaluating the proposed layout-aware method using the frozen evaluation protocol.
+
+### BM25 Search Scope
+
+Because this project uses the Single Page DocVQA task, each question is evaluated using the OCR text from its associated document page.
+
+The BM25 baseline does not search OCR chunks from all validation pages at once. For every question, it loads the OCR file corresponding to that question's image and ranks only the chunks from that page.
+
+This prevents the baseline from becoming a document-collection retrieval system and ensures that it matches the selected single-page question-answering task.
+
+The BM25 baseline does not use OCR coordinates. It uses only OCR text, making it a text-only comparison for the future layout-aware method.
+
+### Baseline Metric Scope
+
+BM25 produces ranked OCR evidence chunks, so it is evaluated using Evidence Recall@1, Evidence Recall@5, and Evidence Recall@10.
+
+The pretrained visual document-question-answering model produces predicted answers rather than ranked OCR evidence. It is therefore evaluated using answer-level metrics such as Exact Match and Token F1.
+
+Evidence matching uses the answer text as a proxy because the dataset does not provide explicit evidence annotations for every question.
