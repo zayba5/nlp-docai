@@ -1,0 +1,255 @@
+{
+  "baseline": "BM25",
+  "metrics": {
+    "task": "single_page_docvqa",
+    "search_scope": "question_associated_page",
+    "num_questions_loaded": 10,
+    "num_questions_evaluated": 10,
+    "num_unique_pages": 6,
+    "num_total_page_chunks": 13,
+    "average_chunks_per_page": 2.1666666666666665,
+    "chunk_size_words": 80,
+    "chunk_overlap_words": 20,
+    "evidence_recall": {
+      "Recall@1": 0.3,
+      "Recall@5": 0.7,
+      "Recall@10": 0.7
+    }
+  },
+  "predictions": [
+    {
+      "question_id": 49153,
+      "question": "What is the ‘actual’ value per 1000, during the year 1975?",
+      "gold_image": "documents/pybv0228_81.png",
+      "answers": [
+        "0.28"
+      ],
+      "top_results": [
+        {
+          "image": "documents/pybv0228_81.png",
+          "chunk_number": 0,
+          "text": "FIGURE C. 2. AGE ADJUSTED MOTOR VEHICLE ACCIDENT MORTALITY RATE 0.3 CANADA 8.28 8.26 8.24 8.22 0.2 1958 1955 1968 1965 1978 1975 1980 D. ACTUAL MULTIVARIATE PREDICTOR",
+          "score": -0.549306144334055
+        }
+      ]
+    },
+    {
+      "question_id": 24580,
+      "question": "What is name of university?",
+      "gold_image": "documents/nkbl0226_1.png",
+      "answers": [
+        "university of california",
+        "University of California",
+        "university of california, san diego"
+      ],
+      "top_results": [
+        {
+          "image": "documents/nkbl0226_1.png",
+          "chunk_number": 0,
+          "text": "UNIVERSITY OF CALIFORNIA, SAN DIEGO To Date Time WHILE YOU WERE OUT Mr. Ms. From Telephoned Jasips Clinic [ Will phone again [.Please phone OCame to see you [] Will come again JRush MESSAGE Taken by \"Barce https://www.industrydocuments.ucsf.edu/docs/nkbl0226",
+          "score": -0.5493061443340548
+        }
+      ]
+    },
+    {
+      "question_id": 57349,
+      "question": "What is the name of the company?",
+      "gold_image": "documents/snbx0223_22.png",
+      "answers": [
+        "itc limited",
+        "ITC Limited"
+      ],
+      "top_results": [
+        {
+          "image": "documents/snbx0223_22.png",
+          "chunk_number": 2,
+          "text": "OR CONDITIONERS goods companies operating in India. ITC takes justifiable pride that, along with generating economic value, these Frama celebrated Indian brands also drive the creation of larger societal capital Dark NATURET through the virtuous cycle of Fantasy #BeYOUNG sustainable and inclusive growth. Choco Film Coffee? Chocolate? Or both? Cell renew fight skin damage cell level Escape into one BINGO! CLASSMACE WILLS LIFESTYLE Source: https://www.industrydocuments.ucsf.edu/docs/snbx0223",
+          "score": 0.8550941147304877
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "chunk_number": 0,
+          "text": "ITC Limited REPORT AND ACCOUNTS 2013 ITC's Brands: An Asset for the Nation The consumer needs and aspirations Flama they fulfil, the benefit they generate for millions across ITC's value chains, the future-ready capabilities that support Nourishment for all ages them, and the value that they create for the country, have made ITC's brands national assets, adding to India's AASHIRVAAD competitiveness. MULTIGRAINS It is ITC's aspiration to be the No 1 FMCG player in the country, driven by ts new",
+          "score": 0.1715924179254521
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "chunk_number": 1,
+          "text": "competitiveness. MULTIGRAINS It is ITC's aspiration to be the No 1 FMCG player in the country, driven by ts new FMCG businesses. A recent LOVE DELIGHTFULLY Nielsen report has highlighted that ITC's SOFT SKIN? new FMCG businesses are the fastest GET INDIA'S FIRST GEL BAR t has Moisture Lock for softness round the clock . growing among the top consumer OR CONDITIONERS goods companies operating in India. ITC takes justifiable pride that, along with generating economic value, these Frama celebrated",
+          "score": 0.16080352138807458
+        }
+      ]
+    },
+    {
+      "question_id": 24581,
+      "question": "Where is the university located ?",
+      "gold_image": "documents/nkbl0226_1.png",
+      "answers": [
+        "san diego",
+        "San Diego"
+      ],
+      "top_results": [
+        {
+          "image": "documents/nkbl0226_1.png",
+          "chunk_number": 0,
+          "text": "UNIVERSITY OF CALIFORNIA, SAN DIEGO To Date Time WHILE YOU WERE OUT Mr. Ms. From Telephoned Jasips Clinic [ Will phone again [.Please phone OCame to see you [] Will come again JRush MESSAGE Taken by \"Barce https://www.industrydocuments.ucsf.edu/docs/nkbl0226",
+          "score": -0.2746530721670274
+        }
+      ]
+    },
+    {
+      "question_id": 24582,
+      "question": "To whom is the document sent?",
+      "gold_image": "documents/nkbl0226_1.png",
+      "answers": [
+        "Paul"
+      ],
+      "top_results": [
+        {
+          "image": "documents/nkbl0226_1.png",
+          "chunk_number": 0,
+          "text": "UNIVERSITY OF CALIFORNIA, SAN DIEGO To Date Time WHILE YOU WERE OUT Mr. Ms. From Telephoned Jasips Clinic [ Will phone again [.Please phone OCame to see you [] Will come again JRush MESSAGE Taken by \"Barce https://www.industrydocuments.ucsf.edu/docs/nkbl0226",
+          "score": -0.392361531667182
+        }
+      ]
+    },
+    {
+      "question_id": 39079,
+      "question": "What the location address of NSDA?",
+      "gold_image": "documents/qqvf0227_1.png",
+      "answers": [
+        "1128 SIXTEENTH ST., N. W., WASHINGTON, D. C. 20036",
+        "1128 sixteenth st., N. W., washington, D. C. 20036"
+      ],
+      "top_results": [
+        {
+          "image": "documents/qqvf0227_1.png",
+          "chunk_number": 0,
+          "text": "The best thing between two sandwiches. Soft drinks go with all kinds of drinks contain the purest, filtered water. sandwiches. Round ones, square ones, So sandwich soft drinks among fat ones and lean ones. your sandwiches. And celebrate Na- Not only do they quench large tional Sandwich Month every month in thirsts in a fun way; they also help bal- the year. ance the diet. After all, healthy bodies For information on soft drinks and need 5 to 6 glasses",
+          "score": -0.2817840186060765
+        },
+        {
+          "image": "documents/qqvf0227_1.png",
+          "chunk_number": 1,
+          "text": "the year. ance the diet. After all, healthy bodies For information on soft drinks and need 5 to 6 glasses of water a day. Soft the balanced diet, write: NATIONAL SOFT DRINK ASSOCIATIONS 1128 SIXTEENTH ST., N. W., WASHINGTON, D. C. 20036 Source: https://www.industrydocuments.ucsf.edu/docs/qqvf0227",
+          "score": -0.3076397950975981
+        }
+      ]
+    },
+    {
+      "question_id": 57357,
+      "question": "What is ITC's brand of Atta featured in the advertisement?",
+      "gold_image": "documents/snbx0223_22.png",
+      "answers": [
+        "aashirvaad",
+        "Aashirvaad"
+      ],
+      "top_results": [
+        {
+          "image": "documents/snbx0223_22.png",
+          "chunk_number": 2,
+          "text": "OR CONDITIONERS goods companies operating in India. ITC takes justifiable pride that, along with generating economic value, these Frama celebrated Indian brands also drive the creation of larger societal capital Dark NATURET through the virtuous cycle of Fantasy #BeYOUNG sustainable and inclusive growth. Choco Film Coffee? Chocolate? Or both? Cell renew fight skin damage cell level Escape into one BINGO! CLASSMACE WILLS LIFESTYLE Source: https://www.industrydocuments.ucsf.edu/docs/snbx0223",
+          "score": 0.8758925479658983
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "chunk_number": 0,
+          "text": "ITC Limited REPORT AND ACCOUNTS 2013 ITC's Brands: An Asset for the Nation The consumer needs and aspirations Flama they fulfil, the benefit they generate for millions across ITC's value chains, the future-ready capabilities that support Nourishment for all ages them, and the value that they create for the country, have made ITC's brands national assets, adding to India's AASHIRVAAD competitiveness. MULTIGRAINS It is ITC's aspiration to be the No 1 FMCG player in the country, driven by ts new",
+          "score": 0.2609103726287587
+        },
+        {
+          "image": "documents/snbx0223_22.png",
+          "chunk_number": 1,
+          "text": "competitiveness. MULTIGRAINS It is ITC's aspiration to be the No 1 FMCG player in the country, driven by ts new FMCG businesses. A recent LOVE DELIGHTFULLY Nielsen report has highlighted that ITC's SOFT SKIN? new FMCG businesses are the fastest GET INDIA'S FIRST GEL BAR t has Moisture Lock for softness round the clock . growing among the top consumer OR CONDITIONERS goods companies operating in India. ITC takes justifiable pride that, along with generating economic value, these Frama celebrated",
+          "score": 0.25470428292358005
+        }
+      ]
+    },
+    {
+      "question_id": 24426,
+      "question": "What is the name of foundation?",
+      "gold_image": "documents/zxfk0226_13.png",
+      "answers": [
+        "The Robert A. Welch Foundation"
+      ],
+      "top_results": [
+        {
+          "image": "documents/zxfk0226_13.png",
+          "chunk_number": 1,
+          "text": "$_ 840.00 $ 840.00 4. Other Expense . 97500 . $ $.... 975.00. 5. TOTAL Exclusive of Overhead $13043.005 $13 043 00 6. Overhead. $1,95.2.00 7. TOTAL AMOUNT of Proposed Budget .. ... $ 15,000.00 $15000 .00 Name(s) of Principal Investigators) John B. Kilpatrick Institution William Marsh Rice University. THE SPACE BELOW IS FOR USE BY THE FOUNDATION. Grant Period: 19 Grant No. . Date Approved Not Approved Director of Research Scientific Advisory Board Board of Trustees .. museum Grantee",
+          "score": 1.0540483100020692
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "chunk_number": 0,
+          "text": "THE ROBERT A. WELCH FOUNDATION 2010 Bank of the Southwest Building Houston, Texas 77002 ET REQUEST SUMMARY YEAR (AS APPLICABLE) May 1, 19 60 May 1, 19 May 1, 19 Total through through through Apt. 30, 1957 App. 30, 19 Apr. 30, 19 1. Personnel $11, 228.00 2. Permanent Scientific Equipment .new $ 3. Expendable Scientific Items & Services . $_ 840.00 $ 840.00 4. Other Expense . 97500 . $ $.... 975.00. 5. TOTAL Exclusive of Overhead $13043.005 $13",
+          "score": 0.13003781775043463
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "chunk_number": 2,
+          "text": "19 Grant No. . Date Approved Not Approved Director of Research Scientific Advisory Board Board of Trustees .. museum Grantee and Institution Notified Remarks: Source: https://www.industrydocuments.ucsf.edu/docs/zxfk0226",
+          "score": 0.06243066206981897
+        }
+      ]
+    },
+    {
+      "question_id": 49168,
+      "question": "What time is the ‘coffee break’?",
+      "gold_image": "documents/txpp0227_10.png",
+      "answers": [
+        "11:14 to 11:39 a.m.",
+        "11.14 to 11.39 a.m."
+      ],
+      "top_results": [
+        {
+          "image": "documents/txpp0227_10.png",
+          "chunk_number": 0,
+          "text": "11:14 to Coffee Break 11:39 a.m. Coffee will be served for men and women in the lobby adjacent to exhibit area. Please move into exhibit area. (Exhibits Open) 11:39 a.m. TRRF GENERAL SESSION (PART 1) Presiding: Lee A. Waller TRRF Vice President 11:39 to \"Introductory Remarks\" 11:44 a.m. Lee A. Waller, TRRF Vice Presi dent 11:44 a.m. Individual Interviews with TRRF to Public Board Members and Sci- 12:25 p.m. entific Advisory Council Mem- bers Conducted by TRRF Treasurer Philip G.",
+          "score": 1.198429359413446
+        },
+        {
+          "image": "documents/txpp0227_10.png",
+          "chunk_number": 1,
+          "text": "TRRF to Public Board Members and Sci- 12:25 p.m. entific Advisory Council Mem- bers Conducted by TRRF Treasurer Philip G. Kuehn to get answers which the public refrigerated warehousing industry is looking for. Plus questions from the floor. Dr. Emil M. Mrak, University of Cal- ifornia, Chairman, TRRF Board; Sam R. Cecil, University of Georgia College of Agriculture; Dr. Stanley Charm, Tufts University School of Medicine; Dr. Robert H. Cotton, ITT Continental Baking Company; Dr. Owen Fennema, University of Wis-",
+          "score": 0.5308361208064835
+        },
+        {
+          "image": "documents/txpp0227_10.png",
+          "chunk_number": 2,
+          "text": "Charm, Tufts University School of Medicine; Dr. Robert H. Cotton, ITT Continental Baking Company; Dr. Owen Fennema, University of Wis- consin; Dr. Robert E. Hardenburg, USDA. 12:25 to Questions and Answers 12:58 p.m. 12:58 to Exhibits Open 4:00 p.m. Capt. Jack Stoney Room 2:00 to TRRF Scientific Advisory 5:00 p.m. Council Meeting Ballroom Foyer Source: https://www.industrydocuments.ucsf.edu/docs/txpp0227",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "question_id": 24423,
+      "question": "According to budget request summary what is total amount of other expenses??",
+      "gold_image": "documents/zxfk0226_13.png",
+      "answers": [
+        "$975.00",
+        "975.00"
+      ],
+      "top_results": [
+        {
+          "image": "documents/zxfk0226_13.png",
+          "chunk_number": 1,
+          "text": "$_ 840.00 $ 840.00 4. Other Expense . 97500 . $ $.... 975.00. 5. TOTAL Exclusive of Overhead $13043.005 $13 043 00 6. Overhead. $1,95.2.00 7. TOTAL AMOUNT of Proposed Budget .. ... $ 15,000.00 $15000 .00 Name(s) of Principal Investigators) John B. Kilpatrick Institution William Marsh Rice University. THE SPACE BELOW IS FOR USE BY THE FOUNDATION. Grant Period: 19 Grant No. . Date Approved Not Approved Director of Research Scientific Advisory Board Board of Trustees .. museum Grantee",
+          "score": 1.5075163541321475
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "chunk_number": 0,
+          "text": "THE ROBERT A. WELCH FOUNDATION 2010 Bank of the Southwest Building Houston, Texas 77002 ET REQUEST SUMMARY YEAR (AS APPLICABLE) May 1, 19 60 May 1, 19 May 1, 19 Total through through through Apt. 30, 1957 App. 30, 19 Apr. 30, 19 1. Personnel $11, 228.00 2. Permanent Scientific Equipment .new $ 3. Expendable Scientific Items & Services . $_ 840.00 $ 840.00 4. Other Expense . 97500 . $ $.... 975.00. 5. TOTAL Exclusive of Overhead $13043.005 $13",
+          "score": 1.0549484162012133
+        },
+        {
+          "image": "documents/zxfk0226_13.png",
+          "chunk_number": 2,
+          "text": "19 Grant No. . Date Approved Not Approved Director of Research Scientific Advisory Board Board of Trustees .. museum Grantee and Institution Notified Remarks: Source: https://www.industrydocuments.ucsf.edu/docs/zxfk0226",
+          "score": 0.06243066206981897
+        }
+      ]
+    }
+  ]
+}

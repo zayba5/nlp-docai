@@ -28,6 +28,10 @@ results/*.csv
 results/*.json
 results/*.log
 
+# Allow specific validation files
+!results/bm25_smoke_test.json
+!results/bm25_validation.json
+
 # Operating system files
 .DS_Store
 Thumbs.db
