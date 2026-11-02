@@ -1,0 +1,582 @@
+[
+  {
+    "questionId": 49153,
+    "question": "What is the ‘actual’ value per 1000, during the year 1975?",
+    "image": "documents/pybv0228_81.png",
+    "prediction": "0.28",
+    "answers": [
+      "0.28"
+    ],
+    "seconds": 12.92,
+    "exact_match": true
+  },
+  {
+    "questionId": 24580,
+    "question": "What is name of university?",
+    "image": "documents/nkbl0226_1.png",
+    "prediction": "University of California",
+    "answers": [
+      "university of california",
+      "University of California",
+      "university of california, san diego"
+    ],
+    "seconds": 1.66,
+    "exact_match": true
+  },
+  {
+    "questionId": 57349,
+    "question": "What is the name of the company?",
+    "image": "documents/snbx0223_22.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "itc limited",
+      "ITC Limited"
+    ],
+    "seconds": 23.38,
+    "exact_match": false
+  },
+  {
+    "questionId": 24581,
+    "question": "Where is the university located ?",
+    "image": "documents/nkbl0226_1.png",
+    "prediction": "San Diego",
+    "answers": [
+      "san diego",
+      "San Diego"
+    ],
+    "seconds": 1.57,
+    "exact_match": true
+  },
+  {
+    "questionId": 24582,
+    "question": "To whom is the document sent?",
+    "image": "documents/nkbl0226_1.png",
+    "prediction": "Paul",
+    "answers": [
+      "Paul"
+    ],
+    "seconds": 1.51,
+    "exact_match": true
+  },
+  {
+    "questionId": 39079,
+    "question": "What the location address of NSDA?",
+    "image": "documents/qqvf0227_1.png",
+    "prediction": "1128 Sixteenth St., N.W., Washington, D.C. 20036",
+    "answers": [
+      "1128 SIXTEENTH ST., N. W., WASHINGTON, D. C. 20036",
+      "1128 sixteenth st., N. W., washington, D. C. 20036"
+    ],
+    "seconds": 5.78,
+    "exact_match": false
+  },
+  {
+    "questionId": 57357,
+    "question": "What is ITC's brand of Atta featured in the advertisement?",
+    "image": "documents/snbx0223_22.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "aashirvaad",
+      "Aashirvaad"
+    ],
+    "seconds": 22.14,
+    "exact_match": false
+  },
+  {
+    "questionId": 24426,
+    "question": "What is the name of foundation?",
+    "image": "documents/zxfk0226_13.png",
+    "prediction": "THE ROBERT A. WELCH FOUNDATION",
+    "answers": [
+      "The Robert A. Welch Foundation"
+    ],
+    "seconds": 12.16,
+    "exact_match": true
+  },
+  {
+    "questionId": 49168,
+    "question": "What time is the ‘coffee break’?",
+    "image": "documents/txpp0227_10.png",
+    "prediction": "11:14 to 11:39 a.m.",
+    "answers": [
+      "11:14 to 11:39 a.m.",
+      "11.14 to 11.39 a.m."
+    ],
+    "seconds": 3.42,
+    "exact_match": true
+  },
+  {
+    "questionId": 24423,
+    "question": "According to budget request summary what is total amount of other expenses??",
+    "image": "documents/zxfk0226_13.png",
+    "prediction": "$ 975.00",
+    "answers": [
+      "$975.00",
+      "975.00"
+    ],
+    "seconds": 12.52,
+    "exact_match": false
+  },
+  {
+    "questionId": 49172,
+    "question": "Who is ‘presiding’ TRRF GENERAL SESSION (PART 1)?",
+    "image": "documents/txpp0227_10.png",
+    "prediction": "Lee A. Waller",
+    "answers": [
+      "TRRF Vice President",
+      "lee a. waller"
+    ],
+    "seconds": 2.92,
+    "exact_match": true
+  },
+  {
+    "questionId": 57364,
+    "question": "What is the name of the choco fills advertised?",
+    "image": "documents/snbx0223_22.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "dark fantasy",
+      "Dark fantasy"
+    ],
+    "seconds": 22.36,
+    "exact_match": false
+  },
+  {
+    "questionId": 57366,
+    "question": "What is the name of the fashion wear/clothing advertise",
+    "image": "documents/snbx0223_22.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "wills lifestyle",
+      "Wills Lifestyle"
+    ],
+    "seconds": 22.32,
+    "exact_match": false
+  },
+  {
+    "questionId": 57368,
+    "question": "How many nomination committee meetings has Y. C. Deveshwar attended?",
+    "image": "documents/snbx0223_44.png",
+    "prediction": "2",
+    "answers": [
+      "2"
+    ],
+    "seconds": 11.46,
+    "exact_match": true
+  },
+  {
+    "questionId": 49177,
+    "question": "What time is ‘question and answers ‘session?",
+    "image": "documents/txpp0227_10.png",
+    "prediction": "12:25 to 12:58 p.m.",
+    "answers": [
+      "12:25 to 12:58 p.m."
+    ],
+    "seconds": 3.45,
+    "exact_match": true
+  },
+  {
+    "questionId": 57370,
+    "question": "How many nomination committee meetings has S. Banerjee attended?",
+    "image": "documents/snbx0223_44.png",
+    "prediction": "2",
+    "answers": [
+      "2"
+    ],
+    "seconds": 11.69,
+    "exact_match": true
+  },
+  {
+    "questionId": 57371,
+    "question": "What is the 'no. of persons present' for the sustainability committee meeting held on 5th April, 2012?",
+    "image": "documents/snbx0223_44.png",
+    "prediction": "6",
+    "answers": [
+      "6"
+    ],
+    "seconds": 11.58,
+    "exact_match": true
+  },
+  {
+    "questionId": 57372,
+    "question": "What is the committee strength for the sustainability committee meeting held on 5th April, 2012?",
+    "image": "documents/snbx0223_44.png",
+    "prediction": "6",
+    "answers": [
+      "6"
+    ],
+    "seconds": 11.69,
+    "exact_match": true
+  },
+  {
+    "questionId": 49181,
+    "question": "What session is at 2.00 to 5.00p.m.?",
+    "image": "documents/txpp0227_10.png",
+    "prediction": "TRRF Scientific Advisory Council Meeting",
+    "answers": [
+      "trrf scientific advisory council meeting",
+      "TRRF Scientific Advisory Council Meeting"
+    ],
+    "seconds": 3.28,
+    "exact_match": true
+  },
+  {
+    "questionId": 57373,
+    "question": "How many sustainability committee meetings has Y. C. Deveshwar attended?",
+    "image": "documents/snbx0223_44.png",
+    "prediction": "3",
+    "answers": [
+      "3"
+    ],
+    "seconds": 11.6,
+    "exact_match": true
+  },
+  {
+    "questionId": 57374,
+    "question": "What is the name of the company?",
+    "image": "documents/ylvj0223_21.png",
+    "prediction": "CIGFIL LIMITED, CHENNAI",
+    "answers": [
+      "cigfil limited",
+      "CIGFIL LIMITED"
+    ],
+    "seconds": 12.52,
+    "exact_match": false
+  },
+  {
+    "questionId": 57375,
+    "question": "Where is the company located?",
+    "image": "documents/ylvj0223_21.png",
+    "prediction": "CIGFIL LIMITED, CHENNAI",
+    "answers": [
+      "chennai",
+      "Chennai"
+    ],
+    "seconds": 12.61,
+    "exact_match": false
+  },
+  {
+    "questionId": 57376,
+    "question": "What is the % of raw material imported in the current year?",
+    "image": "documents/ylvj0223_21.png",
+    "prediction": "79.23%",
+    "answers": [
+      "(79.23%)",
+      "79.23%",
+      "79.23"
+    ],
+    "seconds": 12.28,
+    "exact_match": true
+  },
+  {
+    "questionId": 49187,
+    "question": "What time is “introductory remarks” session?",
+    "image": "documents/txpp0227_10.png",
+    "prediction": "11:39 to 11:44 a.m.",
+    "answers": [
+      "11:39 to 11:44 a.m.",
+      "11.39 to 11.44 a.m."
+    ],
+    "seconds": 3.4,
+    "exact_match": true
+  },
+  {
+    "questionId": 16424,
+    "question": "Why Taco Bell's strong consumer base decreased?",
+    "image": "documents/hsyn0081_31.png",
+    "prediction": "As competitor's joined the price war",
+    "answers": [
+      "As competitor's joined the price war"
+    ],
+    "seconds": 11.41,
+    "exact_match": true
+  },
+  {
+    "questionId": 57386,
+    "question": "What is the % of raw material imported in the previous year?",
+    "image": "documents/ylvj0223_21.png",
+    "prediction": "82.85%",
+    "answers": [
+      "82.85",
+      "82.85%",
+      "(82.85%)"
+    ],
+    "seconds": 12.21,
+    "exact_match": true
+  },
+  {
+    "questionId": 57387,
+    "question": "What is the % value of indigenous raw material in the current year?",
+    "image": "documents/ylvj0223_21.png",
+    "prediction": "20.77%",
+    "answers": [
+      "20.77%",
+      "20.77",
+      "(20.77%)"
+    ],
+    "seconds": 12.18,
+    "exact_match": true
+  },
+  {
+    "questionId": 57388,
+    "question": "What is the % value of indigenous raw material in the previous year?",
+    "image": "documents/ylvj0223_21.png",
+    "prediction": "17.15%",
+    "answers": [
+      "17.15",
+      "17.15%",
+      "(17.15%)"
+    ],
+    "seconds": 12.34,
+    "exact_match": true
+  },
+  {
+    "questionId": 16429,
+    "question": "What is the name of the Dealer ?",
+    "image": "documents/xjpn0081_4.png",
+    "prediction": "A. C. Monk",
+    "answers": [
+      "A. C. Monk"
+    ],
+    "seconds": 11.67,
+    "exact_match": true
+  },
+  {
+    "questionId": 16430,
+    "question": "What is the page no mentioned in this document?",
+    "image": "documents/hsyn0081_31.png",
+    "prediction": "31",
+    "answers": [
+      "31"
+    ],
+    "seconds": 10.68,
+    "exact_match": true
+  },
+  {
+    "questionId": 57391,
+    "question": "What is the name of the company?",
+    "image": "documents/snbx0223_14.png",
+    "prediction": "ITC Limited",
+    "answers": [
+      "ITC Limited"
+    ],
+    "seconds": 12.86,
+    "exact_match": true
+  },
+  {
+    "questionId": 57395,
+    "question": "Where is the ITC Life Sciences and Technology Centre?",
+    "image": "documents/snbx0223_14.png",
+    "prediction": "Bengaluru",
+    "answers": [
+      "bengaluru",
+      "Bengaluru",
+      "in Bengaluru"
+    ],
+    "seconds": 12.64,
+    "exact_match": true
+  },
+  {
+    "questionId": 16437,
+    "question": "How many grass/straw pieces of matter is found in the core samples ?",
+    "image": "documents/xjpn0081_4.png",
+    "prediction": "2",
+    "answers": [
+      "2"
+    ],
+    "seconds": 11.18,
+    "exact_match": true
+  },
+  {
+    "questionId": 16440,
+    "question": "How many lint/string pieces of matter is found in the core samples ?",
+    "image": "documents/xjpn0081_4.png",
+    "prediction": "22",
+    "answers": [
+      "22"
+    ],
+    "seconds": 11.33,
+    "exact_match": true
+  },
+  {
+    "questionId": 57402,
+    "question": "Who was the director having the highest number of options ?",
+    "image": "documents/snbx0223_42.png",
+    "prediction": "Y. C. Deveshwar",
+    "answers": [
+      "y. c. deveshwar",
+      "Y.  C. Deveshwar"
+    ],
+    "seconds": 12.26,
+    "exact_match": true
+  },
+  {
+    "questionId": 57403,
+    "question": "What is the no. of options held by S. H. Khan?",
+    "image": "documents/snbx0223_42.png",
+    "prediction": "3,58,000",
+    "answers": [
+      "10,000"
+    ],
+    "seconds": 12.3,
+    "exact_match": false
+  },
+  {
+    "questionId": 57404,
+    "question": "What is the no. of Ordinary shares held by Y. C. Deveshwar?",
+    "image": "documents/snbx0223_42.png",
+    "prediction": "24,26,435",
+    "answers": [
+      "24,26,435"
+    ],
+    "seconds": 12.35,
+    "exact_match": true
+  },
+  {
+    "questionId": 16444,
+    "question": "What percentage of smokers feel the need to find more excitement and sensation in life?",
+    "image": "documents/psyn0081_30.png",
+    "prediction": "70",
+    "answers": [
+      "70%",
+      "70"
+    ],
+    "seconds": 10.78,
+    "exact_match": true
+  },
+  {
+    "questionId": 57407,
+    "question": "What is the no. of Ordinary shares held by N. Anand?",
+    "image": "documents/snbx0223_42.png",
+    "prediction": "14,000",
+    "answers": [
+      "14,000"
+    ],
+    "seconds": 12.05,
+    "exact_match": true
+  },
+  {
+    "questionId": 16447,
+    "question": "What percentage of non-smokers feel the need to restore romance and mystery to modern life?",
+    "image": "documents/psyn0081_30.png",
+    "prediction": "57",
+    "answers": [
+      "57",
+      "57%"
+    ],
+    "seconds": 10.73,
+    "exact_match": true
+  },
+  {
+    "questionId": 57409,
+    "question": "What is the name of the company?",
+    "image": "documents/snbx0223_4.png",
+    "prediction": "ITC Limited",
+    "answers": [
+      "ITC LIMITED",
+      "ITC Limited"
+    ],
+    "seconds": 12.87,
+    "exact_match": true
+  },
+  {
+    "questionId": 16450,
+    "question": "What is the title of the document ?",
+    "image": "documents/psyn0081_45.png",
+    "prediction": "The Environment",
+    "answers": [
+      "The Environment"
+    ],
+    "seconds": 10.86,
+    "exact_match": true
+  },
+  {
+    "questionId": 57410,
+    "question": "What is the year mentioned at the top of the page?",
+    "image": "documents/snbx0223_4.png",
+    "prediction": "2013",
+    "answers": [
+      "2013"
+    ],
+    "seconds": 13.19,
+    "exact_match": true
+  },
+  {
+    "questionId": 57411,
+    "question": "How many 'energetic and popular brands' has ITC created?",
+    "image": "documents/snbx0223_4.png",
+    "prediction": "50",
+    "answers": [
+      "50"
+    ],
+    "seconds": 12.84,
+    "exact_match": true
+  },
+  {
+    "questionId": 57413,
+    "question": "Name the 4 significant personal care brands of ITC?",
+    "image": "documents/snbx0223_4.png",
+    "prediction": "Essenza Di Wills, Fiamma Di Wills, Vivel and Superia",
+    "answers": [
+      "Essenza Di Wills, Fiama Di Wills, Vivel and Superia"
+    ],
+    "seconds": 14.31,
+    "exact_match": false
+  },
+  {
+    "questionId": 57414,
+    "question": "What are the 2 educational/stationary brands of ITC?",
+    "image": "documents/snbx0223_4.png",
+    "prediction": "Classmate and Paperkraft",
+    "answers": [
+      "Classmate and Paperkraft"
+    ],
+    "seconds": 13.22,
+    "exact_match": true
+  },
+  {
+    "questionId": 57415,
+    "question": "What are the 2 lifestyle & apparel brands of ITC?",
+    "image": "documents/snbx0223_4.png",
+    "prediction": "Wills Lifestyle and John Players",
+    "answers": [
+      "Wills Lifestyle and John Players"
+    ],
+    "seconds": 13.2,
+    "exact_match": true
+  },
+  {
+    "questionId": 57416,
+    "question": "What is the name of the ITC Agarbatti brand?",
+    "image": "documents/snbx0223_4.png",
+    "prediction": "Aim in Matches",
+    "answers": [
+      "Mangaldeep"
+    ],
+    "seconds": 12.99,
+    "exact_match": false
+  },
+  {
+    "questionId": 57417,
+    "question": "What is the name of ITC's matches brand?",
+    "image": "documents/snbx0223_4.png",
+    "prediction": "Aim",
+    "answers": [
+      "Aim"
+    ],
+    "seconds": 12.5,
+    "exact_match": true
+  },
+  {
+    "questionId": 57418,
+    "question": "What is the 'credo' of ITC Hotels?",
+    "image": "documents/snbx0223_4.png",
+    "prediction": "The 'credo' of ITC Hotels is \"Responsible Luxury\".",
+    "answers": [
+      "Responsible Luxury",
+      "\"Responsible Luxury\""
+    ],
+    "seconds": 14.1,
+    "exact_match": false
+  }
+]

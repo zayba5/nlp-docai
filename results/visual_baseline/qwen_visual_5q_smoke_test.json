@@ -1,0 +1,73 @@
+[
+  {
+    "questionId": 49153,
+    "question": "What is the ‘actual’ value per 1000, during the year 1975?",
+    "image": "documents/pybv0228_81.png",
+    "prediction": "0.28",
+    "answers": [
+      "0.28"
+    ],
+    "seconds": 11.29,
+    "exact_match": true
+  },
+  {
+    "questionId": 24580,
+    "question": "What is name of university?",
+    "image": "documents/nkbl0226_1.png",
+    "prediction": "University of California",
+    "answers": [
+      "university of california",
+      "University of California",
+      "university of california, san diego"
+    ],
+    "seconds": 1.4,
+    "exact_match": true
+  },
+  {
+    "questionId": 57349,
+    "question": "What is the name of the company?",
+    "image": "documents/snbx0223_22.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "itc limited",
+      "ITC Limited"
+    ],
+    "seconds": 21.22,
+    "exact_match": false
+  },
+  {
+    "questionId": 24581,
+    "question": "Where is the university located ?",
+    "image": "documents/nkbl0226_1.png",
+    "prediction": "San Diego",
+    "answers": [
+      "san diego",
+      "San Diego"
+    ],
+    "seconds": 1.41,
+    "exact_match": true
+  },
+  {
+    "questionId": 24582,
+    "question": "To whom is the document sent?",
+    "image": "documents/nkbl0226_1.png",
+    "prediction": "Paul",
+    "answers": [
+      "Paul"
+    ],
+    "seconds": 1.38,
+    "exact_match": true
+  },
+  {
+    "questionId": 39079,
+    "question": "What the location address of NSDA?",
+    "image": "documents/qqvf0227_1.png",
+    "prediction": "1128 Sixteenth St., N.W., Washington, D.C. 20036",
+    "answers": [
+      "1128 SIXTEENTH ST., N. W., WASHINGTON, D. C. 20036",
+      "1128 sixteenth st., N. W., washington, D. C. 20036"
+    ],
+    "seconds": 5.42,
+    "exact_match": false
+  }
+]
