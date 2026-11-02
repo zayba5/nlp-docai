@@ -1,0 +1,43 @@
+{
+  "dataset": "SP-DocVQA",
+  "dataset_version": "1.0",
+  "split_manifest": "splits/docvqa_official_split.json",
+  "development_split": "train",
+  "evaluation_split": "validation",
+  "protected_split": "test",
+  "test_used": false,
+  "baselines": {
+    "bm25": {
+      "type": "text_only_retrieval",
+      "uses_ocr_text": true,
+      "uses_coordinates": false,
+      "search_scope": "question_associated_page",
+      "chunk_size_words": 80,
+      "chunk_overlap_words": 20,
+      "retrieval_k": [1, 5, 10],
+      "metrics": [
+        "evidence_recall_at_1",
+        "evidence_recall_at_5",
+        "evidence_recall_at_10"
+      ]
+    },
+    "layoutlm": {
+      "type": "pretrained_document_question_answering",
+      "model": "impira/layoutlm-document-qa",
+      "uses_document_image": true,
+      "metrics": [
+        "answer_exact_match",
+        "answer_token_f1"
+      ]
+    }
+  },
+  "random_seed": null,
+  "notes": [
+    "The official SP-DocVQA partitions are used without creating a new random split.",
+    "All baseline methods use the same validation questions for comparison.",
+    "The test partition remains protected because its answer labels are not included locally.",
+    "The BM25 corpus is restricted to the document page associated with each question.",
+    "BM25 evidence evaluation uses answer-to-OCR text matching as an evidence proxy because explicit evidence annotations are not available for every question.",
+    "The random seed is null because the current baseline runs do not use random sampling or model training."
+  ]
+}
