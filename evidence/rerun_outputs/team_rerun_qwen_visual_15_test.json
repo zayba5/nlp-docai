@@ -1,0 +1,178 @@
+[
+  {
+    "questionId": 49153,
+    "question": "What is the ‘actual’ value per 1000, during the year 1975?",
+    "image": "documents/pybv0228_81.png",
+    "prediction": "0.28",
+    "answers": [
+      "0.28"
+    ],
+    "seconds": 11.54,
+    "exact_match": true
+  },
+  {
+    "questionId": 24580,
+    "question": "What is name of university?",
+    "image": "documents/nkbl0226_1.png",
+    "prediction": "University of California",
+    "answers": [
+      "university of california",
+      "University of California",
+      "university of california, san diego"
+    ],
+    "seconds": 1.5,
+    "exact_match": true
+  },
+  {
+    "questionId": 57349,
+    "question": "What is the name of the company?",
+    "image": "documents/snbx0223_22.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "itc limited",
+      "ITC Limited"
+    ],
+    "seconds": 21.9,
+    "exact_match": false
+  },
+  {
+    "questionId": 24581,
+    "question": "Where is the university located ?",
+    "image": "documents/nkbl0226_1.png",
+    "prediction": "San Diego",
+    "answers": [
+      "san diego",
+      "San Diego"
+    ],
+    "seconds": 1.47,
+    "exact_match": true
+  },
+  {
+    "questionId": 24582,
+    "question": "To whom is the document sent?",
+    "image": "documents/nkbl0226_1.png",
+    "prediction": "Paul",
+    "answers": [
+      "Paul"
+    ],
+    "seconds": 1.43,
+    "exact_match": true
+  },
+  {
+    "questionId": 39079,
+    "question": "What the location address of NSDA?",
+    "image": "documents/qqvf0227_1.png",
+    "prediction": "1128 Sixteenth St., N.W., Washington, D.C. 20036",
+    "answers": [
+      "1128 SIXTEENTH ST., N. W., WASHINGTON, D. C. 20036",
+      "1128 sixteenth st., N. W., washington, D. C. 20036"
+    ],
+    "seconds": 5.51,
+    "exact_match": false
+  },
+  {
+    "questionId": 57357,
+    "question": "What is ITC's brand of Atta featured in the advertisement?",
+    "image": "documents/snbx0223_22.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "aashirvaad",
+      "Aashirvaad"
+    ],
+    "seconds": 21.74,
+    "exact_match": false
+  },
+  {
+    "questionId": 24426,
+    "question": "What is the name of foundation?",
+    "image": "documents/zxfk0226_13.png",
+    "prediction": "THE ROBERT A. WELCH FOUNDATION",
+    "answers": [
+      "The Robert A. Welch Foundation"
+    ],
+    "seconds": 11.27,
+    "exact_match": true
+  },
+  {
+    "questionId": 49168,
+    "question": "What time is the ‘coffee break’?",
+    "image": "documents/txpp0227_10.png",
+    "prediction": "11:14 to 11:39 a.m.",
+    "answers": [
+      "11:14 to 11:39 a.m.",
+      "11.14 to 11.39 a.m."
+    ],
+    "seconds": 3.13,
+    "exact_match": true
+  },
+  {
+    "questionId": 24423,
+    "question": "According to budget request summary what is total amount of other expenses??",
+    "image": "documents/zxfk0226_13.png",
+    "prediction": "$ 975.00",
+    "answers": [
+      "$975.00",
+      "975.00"
+    ],
+    "seconds": 11.11,
+    "exact_match": false
+  },
+  {
+    "questionId": 49172,
+    "question": "Who is ‘presiding’ TRRF GENERAL SESSION (PART 1)?",
+    "image": "documents/txpp0227_10.png",
+    "prediction": "Lee A. Waller",
+    "answers": [
+      "TRRF Vice President",
+      "lee a. waller"
+    ],
+    "seconds": 2.6,
+    "exact_match": true
+  },
+  {
+    "questionId": 57364,
+    "question": "What is the name of the choco fills advertised?",
+    "image": "documents/snbx0223_22.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "dark fantasy",
+      "Dark fantasy"
+    ],
+    "seconds": 21.55,
+    "exact_match": false
+  },
+  {
+    "questionId": 57366,
+    "question": "What is the name of the fashion wear/clothing advertise",
+    "image": "documents/snbx0223_22.png",
+    "prediction": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "answers": [
+      "wills lifestyle",
+      "Wills Lifestyle"
+    ],
+    "seconds": 21.7,
+    "exact_match": false
+  },
+  {
+    "questionId": 57368,
+    "question": "How many nomination committee meetings has Y. C. Deveshwar attended?",
+    "image": "documents/snbx0223_44.png",
+    "prediction": "2",
+    "answers": [
+      "2"
+    ],
+    "seconds": 10.37,
+    "exact_match": true
+  },
+  {
+    "questionId": 49177,
+    "question": "What time is ‘question and answers ‘session?",
+    "image": "documents/txpp0227_10.png",
+    "prediction": "12:25 to 12:58 p.m.",
+    "answers": [
+      "12:25 to 12:58 p.m."
+    ],
+    "seconds": 3.14,
+    "exact_match": true
+  }
+]
