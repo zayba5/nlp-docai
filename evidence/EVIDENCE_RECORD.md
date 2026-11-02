@@ -328,3 +328,53 @@ BM25 produces ranked OCR evidence chunks, so it is evaluated using Evidence Reca
 The pretrained visual document-question-answering model produces predicted answers rather than ranked OCR evidence. It is therefore evaluated using answer-level metrics such as Exact Match and Token F1.
 
 Evidence matching uses the answer text as a proxy because the dataset does not provide explicit evidence annotations for every question.
+
+## BM25 Validation Results
+
+The corrected BM25 baseline was evaluated on the complete DocVQA validation partition.
+
+### Configuration
+
+| Setting | Value |
+|---|---|
+| Baseline | BM25 text-only retrieval |
+| Task | Single-Page DocVQA |
+| Evaluation split | Validation |
+| Questions loaded | 5,349 |
+| Questions evaluated | 5,349 |
+| Unique document pages | 1,286 |
+| Total OCR chunks | 4,517 |
+| Average chunks per page | 3.51 |
+| Chunk size | 80 words |
+| Chunk overlap | 20 words |
+| Search scope | OCR chunks from the question-associated page |
+| Coordinates used | No |
+| Image pixels used | No |
+
+### Results
+
+| Metric | Score | Percentage |
+|---|---:|---:|
+| Evidence Recall@1 | 0.6725 | 67.25% |
+| Evidence Recall@5 | 0.8871 | 88.71% |
+| Evidence Recall@10 | 0.8994 | 89.94% |
+
+### Interpretation
+
+BM25 retrieved an OCR chunk containing the normalized answer for approximately 67.25% of validation questions within its first-ranked result.
+
+When the top five retrieved chunks were considered, the evidence recall increased to approximately 88.71%.
+
+When the top ten retrieved chunks were considered, the evidence recall increased slightly to approximately 89.94%.
+
+This indicates that lexical similarity between the question and OCR text is often sufficient to locate answer-supporting text on the correct document page. However, the remaining failures suggest that text-only retrieval may struggle with OCR errors, tables, forms, repeated values, and relationships that depend on document layout.
+
+The BM25 results provide the text-only reference point for the research question. The proposed layout-aware method will later be compared with these results to determine whether word positions, bounding boxes, and spatial relationships improve evidence retrieval.
+
+### Evaluation Limitation
+
+Evidence recall was estimated by checking whether a normalized answer string appeared in a retrieved OCR chunk. The dataset does not provide explicit evidence annotations for every question.
+
+Therefore, this metric is an answer-to-OCR evidence proxy. It may count a chunk as successful when the answer appears but the chunk does not represent the true visual evidence region. It may also fail when OCR formatting differs from the provided answer.
+
+The BM25 validation results are baseline results only. They do not establish whether layout improves performance because the layout-aware method has not yet been evaluated.
