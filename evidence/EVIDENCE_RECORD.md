@@ -378,3 +378,30 @@ Evidence recall was estimated by checking whether a normalized answer string app
 Therefore, this metric is an answer-to-OCR evidence proxy. It may count a chunk as successful when the answer appears but the chunk does not represent the true visual evidence region. It may also fail when OCR formatting differs from the provided answer.
 
 The BM25 validation results are baseline results only. They do not establish whether layout improves performance because the layout-aware method has not yet been evaluated.
+
+## Qwen Visual Baseline Results
+
+A pretrained `Qwen/Qwen2.5-VL-3B-Instruct` model was evaluated on a fixed subset of 65 questions from the SP-DocVQA validation partition.
+
+The model received only the document image and natural-language question. OCR text and OCR coordinates were not provided to the model.
+
+| Setting | Value |
+|---|---|
+| Model | `Qwen/Qwen2.5-VL-3B-Instruct` |
+| Task | Single-Page DocVQA |
+| Evaluation subset | First 65 validation questions |
+| Questions evaluated | 65 |
+| Correct predictions | 49 |
+| Incorrect predictions | 16 |
+| Metric | Normalized Exact Match |
+| Accuracy | 75.38% |
+| Total runtime | 725.79 seconds |
+| Average time per question | 11.17 seconds |
+| Results file | `results/qwen_visual_65_questions.json` |
+| Notebook | `notebooks/qwen_visual_baseline.ipynb` |
+| Hardware | Google Colab GPU |
+
+The Qwen accuracy was calculated as:
+
+```text
+49 correct predictions / 65 evaluated questions = 75.38%
